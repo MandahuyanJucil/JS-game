@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    height: auto;
+    max-height: 700vh;
+    
+    width: 1005;
+}
+
+:root{
+    --ff:'Roboto', sans-serif;
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    background-image: radial-gradient(rgb(122, 8, 84),rgb(87, 11, 54),rgb(116, 16, 87));
+    max-height: 900vh;
+    min-height: 100vh;
+    height:  auto;
+
+  
+}
+
+a{text-decoration: none;
+
+}
+
+.header__firstdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family:var(--ff) ;
+    color: black;
+    height: auto;
+
+}
+
+.main__header__h2{
+    font-size: 40px;
+}
+
+.main__firstdiv{
+    height: auto;
+    max-height: 600vh;
+    font-family: var(--ff);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.main__h2{
+    font-size: 30px;
+    color: white;
+}
+
+.main__character{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 250px;
+}
+
+.main__character img{
+    width: 200px;
+}
+
+.main__description__h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 200px;
+    color: orange;
+
+}
+
+.main__description__p{
+    color: white;
+    background-color:black;
+}
+
+
+.wraper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;   
+    width: 40%;
+    flex-wrap: wrap;
+    height:auto;
+}
+.wraper h3{
+    font-size: 50px;
+    color: red;
+}
+.wraper img{
+    width: 200px;
+
+}
+
+.main__information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+    
+}
+
+.main__information p{
+    margin: 20px;
+    background-color:orange;
+    width: auto;
+}
+
+.findmatch{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 40%;
+    height: 200px;
+  
+}
+
+.btn-findmatch h4{
+    display:flex;
+    justify-content:  center;
+    align-items: center;
+    font-size: 35px;
+    background-color: red;
+    border-radius: 10px;
+    color: wheat;
+
+}
+
+.main__areana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 400px;
+    
+}
+
+.main__areana img{
+    width: 300px;
+    border-radius: 490px;
+}
+
+.enemy{
+    background-color: aqua;
+}
